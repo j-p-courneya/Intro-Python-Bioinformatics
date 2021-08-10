@@ -44,13 +44,13 @@ $ ls
 ~~~
 {: .source}
 
-### Start a Jupyter Notebook
+### Jupyter Notebooks
 
 For this lesson we will be creating and using Jupyter Notebooks. The Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text. Jupyter Notebook is maintained by the people at [Project Jupyter](http://jupyter.org/). Jupyter supports over [40 programming languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels), including Python, R, Julia, and Scala. Notebooks can be shared with others using email, Dropbox, GitHub and the [Jupyter Notebook Viewer](https://nbviewer.jupyter.org/).
 
 ### Getting started with the classic Jupyter Notebook
 
-If you installed Anaconda on your system the Jupyter notebook is already installed on your system! Skip down to running the notebook section. If not, you can install Jupyter Notebook using `conda` or `pip`:
+If you have installed Anaconda, the Jupyter notebook is already installed on your system! Skip down to running the notebook section. If not, you can install Jupyter Notebook using `conda` or `pip`:
 
 #### Installation with conda
 
