@@ -70,7 +70,7 @@ This will start up Jupyter and your default browser should start (or open a new 
 
 Your browser should now look something like this:
 
-<img src="../fig/launchJupyterNB.png" alt="drawing" width="40%"/>
+<img src="../fig/launchJupyterNB.png" alt="drawing" width="100%"/>
 
 Note that right now you are not actually running a Notebook, but instead you are just running the Notebook server. Let’s actually create a Notebook now!
 
@@ -80,7 +80,7 @@ After starting a Notebook server the next thing to do is create or open an actua
 
 To create the Notebook click the <KBD>New</KBD> button (upper right) which opens a drop down with a list of choices. You will select the option for Python 3. The webpage should now look like this:
 
-<img src="../fig/createJupyterNB.png" alt="drawing" width="40%"/>
+<img src="../fig/createJupyterNB.png" alt="drawing" width="100%"/>
 
 ## Naming your notebook
 
