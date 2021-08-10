@@ -23,7 +23,7 @@ to solve a particular problem or group of problems (like R or Matlab) but **any*
 can think of to solve on a computer. Consequently, you can use Python to do almost anything from 
 analyze data to running computer systems to creating games.
 
-Though comprised of fairly basic syntax (i.e. the grammer of the commands you give it) it is incredibly
+Though comprised of fairly basic syntax (i.e. the grammar of the commands you give it) it is incredibly
 powerful. It is relatively easy to pick up as well and thanks to a very large and growing
 set of external modules (or blocks of code) written by other programmers, you can do complicated things
 quickly and easily.
@@ -37,43 +37,56 @@ never notice a problem!
 
 ## Getting Started
 
-Before we can get to grips with analysing our arthritis dataset, we must first find out how to run
-Python itself. For the time being, we will use the IPython interpreter that acts like the Shell but
+Before we can get to grips with analyzing the arthritis dataset, we must first find out how to run
+Python itself. For the time being, we will use a Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text. that acts like the Shell but
 for Python commands. In other words, when you type your instructions at the prompt and press
 enter, it will be run straight away.
 
-Python is run just like any other program from a shell prompt - by typing it's name.
-If you haven't already, you can start up the intrepreter by typing the following:
+Python is run just like any other program from a shell prompt - by typing it's name. However with 
+If you haven't already, you can start up the interpreter by typing the following:
 ~~~
-$ ipython
+$ jupyter notebook
 ~~~
 {: .language-shell}
 ~~~
-Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
-Type 'copyright', 'credits' or 'license' for more information
-IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
-
-In [1]: 
+[I 14:26:35.122 NotebookApp] Serving notebooks from local directory: /Users/jpcourneya/Desktop/swc-python
+[I 14:26:35.122 NotebookApp] Jupyter Notebook 6.4.2 is running at:
+[I 14:26:35.122 NotebookApp] http://localhost:8888/?token=426e9bbab9c25462f6af45ccca1f2cf94086cf1f5e3a5fe4
+[I 14:26:35.122 NotebookApp]  or http://127.0.0.1:8888/?token=426e9bbab9c25462f6af45ccca1f2cf94086cf1f5e3a5fe4
+[I 14:26:35.122 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:26:35.136 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/jpcourneya/Library/Jupyter/runtime/nbserver-84911-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=426e9bbab9c25462f6af45ccca1f2cf94086cf1f5e3a5fe4
+     or http://127.0.0.1:8888/?token=426e9bbab9c25462f6af45ccca1f2cf94086cf1f5e3a5fe4
 ~~~
 {: .output}
 
 Note that the output will vary depending on your computer and how you've got Python installed.
 
-> ## Python vs. IPython
->
-> You may be wondering why you type `ipython` to run the Python interpreter rather than just
-> `python`. This does also work but this is a much more basic interpreter than IPython that
-> doesn't have tab completion, syntax highlighting, etc. If you ever need an interactive
-> Python prompt, IPython is the best option!
-{: .callout}
+This will start up Jupyter and your default browser should start (or open a new tab) to the following URL: <http://localhost:8888/tree>
 
-To quit out, you can do one of the following:
+Your browser should now look something like this:
 
-* Use `Ctrl-D` - it will ask for confirmation if you want to quit
-* type the command `exit`
-* type the command `quit`
+<img src="../fig/launchJupyterNB.png" alt="drawing" width="40%"/>
 
-This will then drop you back to the shell prompt you were at before.
+Note that right now you are not actually running a Notebook, but instead you are just running the Notebook server. Let’s actually create a Notebook now!
+
+## Creating a Notebook
+
+After starting a Notebook server the next thing to do is create or open an actual Notebook document! 
+
+To create the Notebook click the <KBD>New</KBD> button (upper right) which opens a drop down with a list of choices. You will select the option for Python 3. The webpage should now look like this:
+
+<img src="../fig/createJupyterNB.png" alt="drawing" width="40%"/>
+
+## Naming your notebook
+
+You will notice that at the top of the page is the word Untitled. This is the title for the page and the name of your Notebook. Go ahead and change it to something more meaningful
+
+Just move your mouse over the word `Untitled` and click on the text. You should now see an in-browser dialog titled Rename Notebook. Let’s rename this one to `PD-Episode01`:
 
 ## Getting Python to do something
 
@@ -172,3 +185,18 @@ NameError: name 'Print' is not defined
 {: .error}
 
 As you can see, Python didn't know what `Print` was so showed an error (a `NameError` in this case).
+
+> ## Python vs. Jupyter
+>
+> You may be wondering why you type `jupyter notebook` to run the Python interpreter rather than just
+> `python`. This does also work but this is a much more basic interpreter than Jupyter Notebook that
+> doesn't have tab completion, syntax highlighting, etc. If you ever need an interactive
+> Python prompt, Jupyter notebook is the best option!
+{: .callout}
+
+To quit out, you can do the following:
+
+* Hit the <KBD>Quit</KBD> button then close the browser tab
+* In the shell press <KBD>Cntrl</KBD> <KBD>C</KBD> twice anmd then close the browser tab containing the running Jupyter Notebook. 
+
+This will then drop you back to the shell prompt you were at before.
