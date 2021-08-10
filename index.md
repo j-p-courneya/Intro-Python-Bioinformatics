@@ -2,14 +2,14 @@
 layout: lesson
 root: .
 ---
-This is the version taught at the [Software carpentries](https://bham-carpentries.github.io/2019-01-16-bham) workshop beginning on Wednesday 16 January 2019.
+This lesson was adapted from a version taught at the [Software carpentries](https://bham-carpentries.github.io/2019-01-16-bham) workshop. These materials were used to teach a workshop to the University of Maryland Baltimore Post-Doc association August 2021.
 
 The best way to learn how to program is to do something useful,
 so this introduction to Python is built around a common scientific task:
 **data analysis**.
 
 ### Arthritis Inflammation
-We are studying **inflammation in patients** who have been given a new treatment for arthritis, and
+Imagine a scenario where you are studying **inflammation in patients** who have been given a new treatment for arthritis, and you
 need to analyze the first dozen data sets of their daily inflammation. The data sets are stored in
 [comma-separated values]({{ page.root }}/reference/#comma-separated-values) (CSV) format:
 
@@ -24,13 +24,12 @@ The first three rows of our first file look like this:
 ~~~
 {: .source}
 
-So, we want to:
+So, you'd want to:
 
 1. Calculate the average inflammation per day across all patients.
 2. Plot the result to discuss and share with colleagues.
 
-To do all that, we'll have to learn a little bit about programming. In the first half of the course
-we'll introduce the concepts of Python and in the second half we'll apply these techniques to 
+To do all that, we'll have to learn a little bit about programming. In the first half of the course introduces the concepts of Python and the second half focuses on applying these techniques to 
 the data to perform the analysis.
 
 > ## Prerequisites
