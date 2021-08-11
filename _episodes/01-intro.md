@@ -212,25 +212,25 @@ Jupyter Notebook supports Markdown, which is a markup language that is a superse
 
 To write Markdown in the Notebook, lets first set a new cell to Markdown or use keyboard short-cut <KBD>M</KBD> and add some text to the cell: 
 
-<img src="../fig/md_cell_new_jupyter.png" alt="drawing" width="40%"/>
+<img src="../fig/md_cell_new_jupyter.png" alt="drawing" width="80%"/>
 
 Run the cell using your favorite method and it should look like this: 
 
-<img src="../fig/md_cell_rendered_jupyter.png" alt="drawing" width="40%"/>
+<img src="../fig/md_cell_rendered_jupyter.png" alt="drawing" width="80%"/>
 
 To make your text **BOLD**, use a double underscore or a double asterisk.
 
 Creating headers in Markdown involves placing a pound sign at the biginning of a line and making a space after! The more pound signs you use, the smaller the header. Jupyter Notebook even kind of previews it for you:
 
-<img src="../fig/md_headers_jupyter.png" alt="drawing" width="40%"/>
+<img src="../fig/md_headers_jupyter.png" alt="drawing" width="80%"/>
 
 Running the cell you are left with a beautiful header for you notebook. 
 
-<img src="../fig/md_headers_rendered_jupyter.png" alt="drawing" width="40%"/>
+<img src="../fig/md_headers_rendered_jupyter.png" alt="drawing" width="80%"/>
 
 In case you want to insert a code example that you dont expect to be run by the end user, theres a Markdown for that too! For inline code highlighting, just surround the code with backticks. If you want to insert a block of code, you can use triple backticks and also specify the programming language:
 
-<img src="../fig/md_syntax-highlight_jupyter.png" alt="drawing" width="40%"/>
+<img src="../fig/md_syntax-highlight_jupyter.png" alt="drawing" width="80%"/>
 
 As had already been mentioned Jupyter notebooks provide a qide set of features to explore. You will want to investigate more on the topic. Some important topics not covered are Exporting Notebooks, Installing Kernels, Notebook extensions, and Hosting you Notebook on Jupyter Hub and more!
 
