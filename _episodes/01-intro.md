@@ -39,16 +39,17 @@ never notice a problem!
 ## Getting Started
 
 Before we can get to grips with analyzing the arthritis dataset, we must first find out how to run
-Python itself. For the time being, we will use a Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text. that acts like the Shell but
-for Python commands. In other words, when you type your instructions at the prompt and press
+Python itself. For the time being, we will use a Jupyter Notebook which again is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text. The notebook acts like the Shell but for Python commands. In other words, when you type your instructions at the prompt and press
 enter, it will be run straight away.
 
-Python is run just like any other program from a shell prompt - by typing it's name. However with 
-If you haven't already, you can start up the interpreter by typing the following:
+If you haven't already, you can start up the Jupyter notebook server from the shell by typing the following:
 ~~~
 $ jupyter notebook
 ~~~
 {: .language-shell}
+
+Note that the output upon launch the notebook server will vary depending on your computer and how you've got Python installed.
+
 ~~~
 [I 14:26:35.122 NotebookApp] Serving notebooks from local directory: /Users/jpcourneya/Desktop/swc-python
 [I 14:26:35.122 NotebookApp] Jupyter Notebook 6.4.2 is running at:
@@ -65,15 +66,13 @@ $ jupyter notebook
 ~~~
 {: .output}
 
-Note that the output will vary depending on your computer and how you've got Python installed.
-
 This will start up Jupyter and your default browser should start (or open a new tab) to the following URL: <http://localhost:8888/tree>
 
 Your browser should now look something like this:
 
 <img src="../fig/launchJupyterNB.png" alt="drawing" width="100%"/>
 
-Note that right now you are not actually running a Notebook, but instead you are just running the Notebook server. Let’s actually create a Notebook now!
+At this point you are not actually running a Notebook, but instead you are just running the Notebook server. To write and execute Python code we'll need a Jupyter notebook. You will notice all notebooks have the file extension `.ipynb`. Theres history behind this as Jupyter Notebooks were formerly known as [IPython Notebooks](https://ipython.org/notebook.html). Let’s actually create a Notebook now!
 
 ## Creating a Notebook
 
@@ -89,10 +88,20 @@ You will notice that at the top of the page is the word Untitled. This is the ti
 
 Just move your mouse over the word `Untitled` and click on the text. You should now see an in-browser dialog titled Rename Notebook. Let’s rename this one to `PD-Episode01`:
 
+<img src="../fig/renameJupyterNB.png" alt="drawing" width="100%"/>
+
+## Running Cells
+
+A Notebook’s cell defaults to using code whenever you first create one, and that cell uses the kernel that you chose when you started your Notebook.
+
+In this case, you started yours with Python 3 as your kernel, so that means you can write Python code in your code cells. Since your initial Notebook has only one empty cell in it, the Notebook can’t really do anything.
+
+Thus, to verify that everything is working as it should, you can add some Python code to the cell and try running its contents.
+
 ## Getting Python to do something
 
 Now we can start and (possibly more importantly!) exit Python, we can try to get it do something
-by giving it a command. The interactive intepreter (i.e. the `In [x]:` prompt) works in
+by giving it a command. The Jupyter Notebook intepreter (i.e. the `In [x]:` prompt) works in
 a very similar way to the shell except that here you will be typing python code directly instead
 of running programs. We shall start by getting Python to print something. This is very basic but
 will be invaluable going forward:
@@ -102,15 +111,12 @@ print("Hello World")
 ~~~
 {: .language-python}
 
-If all is well, you should see:
+Running a cell means that you will execute the cell’s contents. To execute a cell, you can just select the cell and click the Run button that is in the row of buttons along the top. It’s towards the middle. If you prefer using your keyboard, you can just press <KBD>Shift</KBD>+<KBD>Enter</KBD>.
 
-~~~
-Hello World
-~~~
-{: .output}
+<img src="../fig/cell_run_jupyter.png" alt="drawing" width="100%"/>
 
 So what did we just do? We typed in a python statement that was interpreted by Python and acted
-on when we pressed enter. It interpreted this as 'call the function `print` with the argument
+on when we pressed <KBD>Shift</KBD>+<KBD>Enter</KBD>. It interpreted this as 'call the function `print` with the argument
 `"Hello World"`. It went away, ran the appropriate code and returned.
 
 But what does the `print` function do? In this case, it's fairly self-expanatory but if you wanted
@@ -135,10 +141,7 @@ print(...)
 ~~~
 {: .output}
 
-You can press `q` to quit out of the editor this opened in (`less` if you're interested!).
-
-IPython also has shell-like behaviour in that you can use the up arrow to go to previous commands 
-and `Tab` to auto-complete a function or variable name:
+Jupyter Notebooks also have shell-like behavior in that you can use `Tab` to auto-complete a function or variable name:
 
 ~~~
 pri [Tab]
@@ -152,7 +155,7 @@ print
 
 > ## Exploring Tab Completion
 >
-> On up-to-date versions of IPython, the Tab completion functionality will also suggest the commands
+> On up-to-date versions of Jupyter, the Tab completion functionality will also suggest the commands
 > you mean if several match and also show the arguments a function might take.
 >
 > Give this a try by doing:
@@ -187,6 +190,22 @@ NameError: name 'Print' is not defined
 
 As you can see, Python didn't know what `Print` was so showed an error (a `NameError` in this case).
 
+## Jupyter Notebook menus
+
+The Jupyter notebook has several menus that help you interact with the notebook. The menus are found along the top similar to menus from other applications. You are encouraged to go through the menu tabs and explore what possibilities exist within each. It is worth noting that many of the commands within the menu tabs will provide a corresponding keyboard short-cut to use them for reducing mouse fatigue. Use of the menu resources will become more apparent as you proceed in working with Jupyter Notebooks. 
+
+The _Help_ menu is particularly useful. The _Help_ menu is where you go to learn about the Notebook’s keyboard shortcuts, a user interface tour, and lots of reference material.
+
+## Adding Rich Content to your Notebook
+Jupyter Notebook supports adding rich content to its cells. Lets take a look some of the things you can do with your cells using Markup and Code.
+
+### Cell Types
+
+There are 3 cell types you can create in a Notebook: Code, Markdown, Raw NBConvert. The <KBD>Cell</KBD> menu _Cell Type_ selection shows you them with their corresponding keyboard short-cut:
+
+<img src="../fig/cell_type_jupyter.png" alt="drawing" width="100%"/>
+
+The primary cell types that you will use are the Code and Markdown cell types. You have already learned how code cells work, so let’s learn how to style your text with Markdown.
 > ## Python vs. Jupyter
 >
 > You may be wondering why you type `jupyter notebook` to run the Python interpreter rather than just
