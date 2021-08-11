@@ -203,7 +203,7 @@ Jupyter Notebook supports adding rich content to its cells. Lets take a look som
 
 There are 3 cell types you can create in a Notebook: Code, Markdown, Raw NBConvert. The <KBD>Cell</KBD> menu _Cell Type_ selection shows you them with their corresponding keyboard short-cut:
 
-<img src="../fig/cell_type_jupyter.png" alt="drawing" width="100%"/>
+<img src="../fig/cell_type_jupyter.png" alt="drawing" width="40%"/>
 
 The primary cell types that you will use are the Code and Markdown cell types. You have already learned how code cells work, so let’s learn how to style your text with Markdown.
 > ## Python vs. Jupyter
