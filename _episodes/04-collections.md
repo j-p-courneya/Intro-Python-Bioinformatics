@@ -211,6 +211,7 @@ does not.
 > a [function call]({{ page.root }}/reference/#function-call). For example:
 > 
 > ~~~
+> my_str = "Programming is cool"
 > my_str.find("a")
 > ~~~
 > {: .language-python}

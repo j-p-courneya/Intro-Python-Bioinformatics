@@ -206,6 +206,34 @@ There are 3 cell types you can create in a Notebook: Code, Markdown, Raw NBConve
 <img src="../fig/cell_type_jupyter.png" alt="drawing" width="40%"/>
 
 The primary cell types that you will use are the Code and Markdown cell types. You have already learned how code cells work, so let’s learn how to style your text with Markdown.
+
+### Styling text with Markdown
+Jupyter Notebook supports Markdown, which is a markup language that is a superset of HTML. We will look at some of the basic styling possible using Markdown in the following examples, for a more extensive guide visit: [Ultimate Markdown Guide](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd)
+
+To write Markdown in the Notebook, lets first set a new cell to Markdown or use keyboard short-cut <KBD>M</KBD> and add some text to the cell: 
+
+<img src="../fig/md_cell_new_jupyter.png" alt="drawing" width="40%"/>
+
+Run the cell using your favorite method and it should look like this: 
+
+<img src="../fig/md_cell_rendered_jupyter.png" alt="drawing" width="40%"/>
+
+To make your text **BOLD**, use a double underscore or a double asterisk.
+
+Creating headers in Markdown involves placing a pound sign at the biginning of a line and making a space after! The more pound signs you use, the smaller the header. Jupyter Notebook even kind of previews it for you:
+
+<img src="../fig/md_headers_jupyter.png" alt="drawing" width="40%"/>
+
+Running the cell you are left with a beautiful header for you notebook. 
+
+<img src="../fig/md_headers_rendered_jupyter.png" alt="drawing" width="40%"/>
+
+In case you want to insert a code example that you dont expect to be run by the end user, theres a Markdown for that too! For inline code highlighting, just surround the code with backticks. If you want to insert a block of code, you can use triple backticks and also specify the programming language:
+
+<img src="../fig/md_syntax-highlight_jupyter.png" alt="drawing" width="40%"/>
+
+As had already been mentioned Jupyter notebooks provide a qide set of features to explore. You will want to investigate more on the topic. Some important topics not covered are Exporting Notebooks, Installing Kernels, Notebook extensions, and Hosting you Notebook on Jupyter Hub and more!
+
 > ## Python vs. Jupyter
 >
 > You may be wondering why you type `jupyter notebook` to run the Python interpreter rather than just
