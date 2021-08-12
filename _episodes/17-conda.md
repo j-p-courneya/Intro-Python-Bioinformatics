@@ -9,7 +9,7 @@ objectives:
 - "Add a channel to conda for installing bioinformatics packages"
 keypoints:
 - "Bioconda is the ideal place to find bioinformatics software for Python to install on your computer"
-- "Packge managers make updating software easier than one of installations"
+- "Packge managers make updating software easier than one off software installations"
 ---
 
 So far we have seen the fundamentals of using Python as well as libraries for cleaning, analyzing and visualizing data like Matplotlib and NumPy using Python. When you hear about Python being used for Bioinformatics or Machine Learning however much of the time doing that work requires loading and using software developed with Python and other programming languages. When you are considering expanding your analytical repertoire to using these packages you are faced with a decision. Will I download this software from the developers website or will I use a package manager. There are tremendous benefits to using package managers. The most important benefit is ease of installation of the software as well as updating software that has been installed using a package manager. One important channel/package manager to familiarize yourself with is [Bioconda](https://bioconda.github.io/user/install.html) which is part of the [Conda](https://docs.conda.io/en/latest/) open-source package management system and environment management system. 
