@@ -113,7 +113,8 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
 >
 > > ## Solution
 > >
-> > To accomplish this use the `conda search` command with the <package name> then pipe the results to `tail -n1` since the most recent version of the packages always appear at the end of the output from `conda search`.
+> > To accomplish this use the `conda search` command with the `package name` then pipe the results to `tail -n1` since the most recent version
+> > of the packages always appear at the end of the output from `conda search` .
 > >
 > > ~~~
 > > $ conda search samtools | tail -n1
