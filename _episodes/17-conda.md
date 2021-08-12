@@ -12,7 +12,7 @@ keypoints:
 - "Packge managers make updating software easier than one of installations"
 ---
 
-So far we have seen the fundamentals of using Python as well as libraries for cleaning, analyzing and visualizing data using Python like Matplotlib and NumPy. When you hear about Python being used for Bioinformatics or Machine Learning however much of the time doing that work requires loading and using software developed with Python and other programming languages. When you are considering expanding your analytical repertoire to using these packages you are faced with a decision. Will I download this software from the developers website or will I use a package manager. There are tremendous benefits to using package managers. The most important benefit is ease of installation of the software as well as updating software that has been installed using a package manager. One important channel/package manager to familiarize yourself with is [Bioconda](https://bioconda.github.io/user/install.html) which is part of the [Conda](https://docs.conda.io/en/latest/) open-source package management system and environment management system. 
+So far we have seen the fundamentals of using Python as well as libraries for cleaning, analyzing and visualizing data like Matplotlib and NumPy using Python. When you hear about Python being used for Bioinformatics or Machine Learning however much of the time doing that work requires loading and using software developed with Python and other programming languages. When you are considering expanding your analytical repertoire to using these packages you are faced with a decision. Will I download this software from the developers website or will I use a package manager. There are tremendous benefits to using package managers. The most important benefit is ease of installation of the software as well as updating software that has been installed using a package manager. One important channel/package manager to familiarize yourself with is [Bioconda](https://bioconda.github.io/user/install.html) which is part of the [Conda](https://docs.conda.io/en/latest/) open-source package management system and environment management system. 
 
 ## Getting Started
 
@@ -105,4 +105,4 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
 * Packages have versions, build numbers, build hashes/strings
   * Build hashes include dependency information
 
-* Bioconda packages are also listed at [](http://bioconda.github.io/conda-package_index.html)
+* Bioconda packages are also listed at (http://bioconda.github.io/conda-package_index.html)
