@@ -106,3 +106,72 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
   * Build hashes include dependency information
 
 * Bioconda packages are also listed at (http://bioconda.github.io/conda-package_index.html)
+
+> ## How to find recent versions of bioconda packages?
+>
+> What are the most recent versions of samtools and Snakemake?
+>
+> > ## Solution
+> >
+> > ~~~
+> > $ conda search samtools | tail -n1
+> > ~~~
+> > {: .language-python}
+> > ~~~
+> > samtools                        1.13      h7596a89_0  bioconda 
+> > ~~~
+> > {: .output}
+> > ~~~
+> > $ conda search snakemake | tail -n1
+> > ~~~
+> > {: .language-python}
+> > ~~~
+> > snakemake                      6.7.0      hdfd78af_0  bioconda
+> > ~~~
+> > {: .output}
+> {: .solution}
+{: .challenge}
+
+## Install packages¶
+
+After browsing the packages to see what’s available and knowing bioconda is now enabled, any packages on the bioconda channel can be installed into the current conda environment:
+
+~~~
+$ conda install bwa
+~~~
+{: .language-shell}
+
+## Updating and checking out whats installed
+
+To check all the conda packages installed on your system:
+
+~~~
+$ conda list
+~~~
+{: .language-shell}
+
+~~~
+# packages in environment at /Users/jpcourneya/miniconda3:
+#
+# Name                    Version                   Build  Channel
+appnope                   0.1.2            py38h50d1736_1    conda-forge
+argon2-cffi               20.1.0           py38h96a0964_2    conda-forge
+async_generator           1.10                       py_0    conda-forge
+attrs                     20.3.0                   pypi_0    pypi
+backcall                  0.2.0              pyh9f0ad1d_0    conda-forge
+[...]
+trimmomatic               0.39                 hdfd78af_2    bioconda
+urllib3                   1.26.6             pyhd8ed1ab_0    conda-forge
+wcwidth                   0.2.5              pyh9f0ad1d_2    conda-forge
+webencodings              0.5.1                    pypi_0    pypi
+wheel                     0.36.2             pyhd3deb0d_0    conda-forge
+~~~
+{: .output}
+
+To update all your package, on some kind of routine you'd type:
+
+~~~
+$ conda update -all
+~~~
+{: .language-shell}
+
