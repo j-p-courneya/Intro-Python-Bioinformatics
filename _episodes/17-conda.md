@@ -105,7 +105,7 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
 * Packages have versions, build numbers, build hashes/strings
   * Build hashes include dependency information
 
-* Bioconda packages are also listed at (http://bioconda.github.io/conda-package_index.html)
+* Bioconda packages are also listed at <http://bioconda.github.io/conda-package_index.html>
 
 > ## How to find recent versions of bioconda packages?
 >
@@ -113,18 +113,25 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
 >
 > > ## Solution
 > >
+> > To accomplish this use the `conda search` command with the <package name> then pipe the results to `tail -n1` since the most recent version of the packages always appear at the end of the output from `conda search`.
+> >
 > > ~~~
 > > $ conda search samtools | tail -n1
 > > ~~~
 > > {: .language-shell}
+> >
+> >
 > > ~~~
 > > samtools                        1.13      h7596a89_0  bioconda 
 > > ~~~
 > > {: .output}
+> >
+> >
 > > ~~~
 > > $ conda search snakemake | tail -n1
 > > ~~~
 > > {: .language-shell}
+> >
 > > ~~~
 > > snakemake                      6.7.0      hdfd78af_0  bioconda
 > > ~~~
