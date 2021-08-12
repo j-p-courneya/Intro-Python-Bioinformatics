@@ -16,6 +16,8 @@ keypoints:
 - "Trying to read a file that does not exist will give you an `FileNotFoundError`. Trying to read a file that is open for writing, or writing to a file that is open for reading, will give you an `IOError`."
 ---
 
+**The code `pd_episode10_errors.ipynb` for this episode can be downloaded from [here](https://osf.io/5dzus/download)**
+
 Every programmer encounters errors,
 both those who are just beginning,
 and those who have been programming for years.

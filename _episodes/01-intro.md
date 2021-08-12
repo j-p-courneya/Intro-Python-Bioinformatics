@@ -16,7 +16,7 @@ keypoints:
 - "Use `Ctrl-C` in the shell to exit a Jupyter Notebook session"
 - "Python code is case sensitive"
 ---
-**The code for this episode can be downloaded from [here](https://osf.io/9cy4u/download)**
+**The code `pd_episode01_intro.ipynb` for this episode can be downloaded from [here](https://osf.io/9cy4u/download)**
 
 ## What is Python?
 Python is a general purpose programming language which means that it wasn't designed

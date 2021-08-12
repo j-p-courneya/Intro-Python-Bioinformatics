@@ -10,6 +10,8 @@ keypoints:
 - "It's best to keep functions and code blocks to relatively small sizes"
 ---
 
+**The code `pd_episode15_tidying.ipynb` for this episode can be downloaded from [here](https://osf.io/qynru/download)**
+
 Finally, we can make our inflammation analysis easier to read and easier to reuse
 by creating functions from what we have.
 First, let's make an `analyze` function that generates our plots:

@@ -12,6 +12,8 @@ keypoints:
 - "Use `*` in a pattern to match zero or more characters, and `?` to match any single character."
 ---
 
+**The code `pd_episode13_files.ipynb` for this episode can be downloaded from [here](https://osf.io/mgswj/download)**
+
 We now have almost everything we need to process all our data files.
 The only thing that's missing is a library with a rather unpleasant name:
 

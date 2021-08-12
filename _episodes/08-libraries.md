@@ -14,7 +14,7 @@ keypoints:
 - "Rename a module in your code using `import <module> as <myname>`"
 ---
 
-**The code for this episode can be downloaded from [here](https://osf.io/r7v8b/download)**
+**The code `pd_episode08_external_modules.ipynb` for this episode can be downloaded from [here](https://osf.io/r7v8b/download)**
 
 We've now covered a lot of the basic syntax and commands in Python. However, you may be
 wondering how you do anything useful with this without creating lots of code for all sorts

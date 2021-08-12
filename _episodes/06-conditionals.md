@@ -17,6 +17,8 @@ keypoints:
 - "`True` and `False` represent truth values."
 ---
 
+**The code `pd_episode06_conditionals.ipynb` for this episode can be downloaded from [here](https://osf.io/6ku2v/download)**
+
 A key part of programming is making the computer do different things depending on the outcome
 of a test. This functionality is provided by the conditional statements `if`, `elif`, and `else`.
 

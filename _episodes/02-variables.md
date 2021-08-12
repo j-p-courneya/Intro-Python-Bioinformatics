@@ -18,7 +18,7 @@ keypoints:
 - "The basic (non collection) data types are: integers, floating point numbers, strings and booleans."
 ---
 
-**The code for this episode can be downloaded from [here](https://osf.io/mre3d/download)**
+**The code `pd_episode02_variables.ipynb` for this episode can be downloaded from [here](https://osf.io/mre3d/download)**
 
 Now we have learned the technical aspects of using the Python interpreter, we can
 move on to the basics of programming using it. The first thing we'll learn about is

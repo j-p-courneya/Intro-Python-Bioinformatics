@@ -10,6 +10,8 @@ keypoints:
 - "Use the `pyplot` library from `matplotlib` for creating simple visualizations."
 ---
 
+**The code `pd_episode12_plotting.ipynb` for this episode can be downloaded from [here](https://osf.io/wgjba/download)**
+
 ## Visualizing data
 The mathematician Richard Hamming once said, "The purpose of computing is insight, not numbers," and
 the best way to develop insight is often to visualize data.  Visualization deserves an entire

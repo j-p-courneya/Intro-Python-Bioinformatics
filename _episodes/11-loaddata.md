@@ -17,10 +17,12 @@ keypoints:
 - "Use `numpy.mean(array, axis=0)` or `numpy.mean(array, axis=1)` to calculate statistics across the specified axis."
 ---
 
-In this lesson we will take what we've learnt about Python and start applying it to our arthritis
+**The code `pd_episode11_loaddata.ipynb` for this episode can be downloaded from [here](https://osf.io/bwmcj/download)**
+
+In this lesson we will take what we've learned about Python and start applying it to our arthritis
 inflammation data by loading some data in and performing the first bits of analysis.
 
-For this part, we would recommend switching back to IPython while you're still exploring
+For this part, we would recommend switching back to Jupyter Notebooks while you're still exploring
 the datasets as it will print out the **large** tables of data in a sensible way!
 
 ## Loading data into Python

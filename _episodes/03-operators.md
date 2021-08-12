@@ -13,7 +13,7 @@ keypoints:
 - "There is nothing special about operators - they are just shorthand for running other bits of code"
 ---
 
-**The code for this episode can be downloaded from [here](https://osf.io/8h9bm/download)**
+**The code `pd_episode03_operators.ipynb` for this episode can be downloaded from [here](https://osf.io/8h9bm/download)**
 
 We now know how to create variables to store our data but we don't know how to manipulate them
 at the moment. This is done using 'Operators'.

@@ -10,6 +10,8 @@ keypoints:
 - "If you can identify attributes of bad data in your dataset, you can get your program to filter them out"
 ---
 
+**The code `pd_episode14_filtering.ipynb` for this episode can be downloaded from [here](https://osf.io/9jkmg/download)**
+
 In our last lesson, we discovered something suspicious was going on
 in our inflammation data by drawing some plots. Using our new-found knowledge of conditionals,
 we can get Python to automatically recognize the different features we saw,

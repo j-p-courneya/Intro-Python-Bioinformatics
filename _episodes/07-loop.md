@@ -15,6 +15,8 @@ keypoints:
 - "Use `len(thing)` to determine the length of something that contains other values."
 ---
 
+**The code `pd_episode07_loops.ipynb` for this episode can be downloaded from [here](https://osf.io/bhk65/download)**
+
 It is very good coding practise to reuse as much code as posible as generally, the fewer lines
 of code there are, the fewer bugs you'll have. Loops are a very good way of doing this where
 a block of code is repeated a number of times or on each element in a collection.
