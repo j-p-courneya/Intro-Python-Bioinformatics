@@ -74,7 +74,7 @@ $ conda config --add channels conda-forge
 
 * defaults: Packages built by Anaconda Inc.
 
-## Finding Packages¶
+## Finding Packages
 
 * Search https://anaconda.org
 
@@ -116,7 +116,7 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
 > > ~~~
 > > $ conda search samtools | tail -n1
 > > ~~~
-> > {: .language-python}
+> > {: .language-shell}
 > > ~~~
 > > samtools                        1.13      h7596a89_0  bioconda 
 > > ~~~
@@ -124,7 +124,7 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
 > > ~~~
 > > $ conda search snakemake | tail -n1
 > > ~~~
-> > {: .language-python}
+> > {: .language-shell}
 > > ~~~
 > > snakemake                      6.7.0      hdfd78af_0  bioconda
 > > ~~~
@@ -132,7 +132,7 @@ pysam                       0.16.0.1  py39h56703ae_3  bioconda
 > {: .solution}
 {: .challenge}
 
-## Install packages¶
+## Install packages
 
 After browsing the packages to see what’s available and knowing bioconda is now enabled, any packages on the bioconda channel can be installed into the current conda environment:
 
