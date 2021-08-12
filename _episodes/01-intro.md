@@ -6,14 +6,14 @@ questions:
 - "What is Python?"
 - "How do I get it to do things?"
 objectives:
-- "Start up the IPython interpreter"
+- "Start up the Jupyter Notebook"
 - "Write your first code"
 keypoints:
 - "Python is a general purpose programming language that allows you to get a computer to do almost anything"
 - "Generally, Python implementations are **interpreted** rather than **compiled**"
-- "It is particularly useful at analysing data"
-- "The ipython interpreter can use tab completion and keeps a history of the commands you run"
-- "Use `Ctrl-D` to exist an IPython session"
+- "It is particularly useful at analyzing data"
+- "The Jupyter Notebook can use tab completion and keeps a history of the commands you run"
+- "Use `Ctrl-C` in the shell to exit a Jupyter Notebook session"
 - "Python code is case sensitive"
 ---
 **The code for this episode can be downloaded from [here](https://osf.io/9cy4u/download)**
@@ -220,19 +220,19 @@ Run the cell using your favorite method and it should look like this:
 
 To make your text **BOLD**, use a double underscore or a double asterisk.
 
-Creating headers in Markdown involves placing a pound sign at the biginning of a line and making a space after! The more pound signs you use, the smaller the header. Jupyter Notebook even kind of previews it for you:
+Creating headers in Markdown involves placing a pound sign at the beginning of a line and making a space after! The more pound signs you use, the smaller the header. Jupyter Notebook even kind of previews it for you:
 
 <img src="../fig/md_headers_jupyter.png" alt="drawing" width="80%"/>
 
-Running the cell you are left with a beautiful header for you notebook. 
+Running the cell you are left with a beautiful header for your notebook. 
 
 <img src="../fig/md_headers_rendered_jupyter.png" alt="drawing" width="80%"/>
 
-In case you want to insert a code example that you dont expect to be run by the end user, theres a Markdown for that too! For inline code highlighting, just surround the code with backticks. If you want to insert a block of code, you can use triple backticks and also specify the programming language:
+In case you want to insert a code example that you don't expect to be run by the end user, there's a Markdown for that too! For inline code highlighting, just surround the code with backticks. If you want to insert a block of code, you can use triple backticks and also specify the programming language:
 
 <img src="../fig/md_syntax-highlight_jupyter.png" alt="drawing" width="80%"/>
 
-As had already been mentioned Jupyter notebooks provide a qide set of features to explore. You will want to investigate more on the topic. Some important topics not covered are Exporting Notebooks, Installing Kernels, Notebook extensions, and Hosting you Notebook on Jupyter Hub and more!
+Jupyter notebooks provide a wide set of features to explore and use. You will want to investigate more on the topic. Some important topics not covered are Exporting Notebooks, Installing Kernels, Notebook extensions, hosting your Jupyter Notebook on Jupyter Hub and more!
 
 > ## Python vs. Jupyter
 >

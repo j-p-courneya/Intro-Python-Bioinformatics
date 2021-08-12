@@ -14,6 +14,8 @@ keypoints:
 - "Rename a module in your code using `import <module> as <myname>`"
 ---
 
+**The code for this episode can be downloaded from [here](https://osf.io/r7v8b/download)**
+
 We've now covered a lot of the basic syntax and commands in Python. However, you may be
 wondering how you do anything useful with this without creating lots of code for all sorts
 of mundane jobs such as reading in data, performing statistical analyses or producing plots.
@@ -23,7 +25,7 @@ use within your own code.
 ## Importing an External Module
 
 Importing a module is like getting a piece of lab equipment out of a storage locker and setting it
-up on the bench. Moduels provide additional functionality to the basic Python package, much like
+up on the bench. Modules provide additional functionality to the basic Python package, much like
 a new piece of equipment adds functionality to a lab space. Just like in the lab, importing too
 many libraries can sometimes complicate and slow down your programs - so we only import what we
 need for each program.

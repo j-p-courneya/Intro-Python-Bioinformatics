@@ -18,7 +18,9 @@ keypoints:
 - "The basic (non collection) data types are: integers, floating point numbers, strings and booleans."
 ---
 
-Now we have learnt the technical aspects of using the Python interpreter, we can
+**The code for this episode can be downloaded from [here](https://osf.io/mre3d/download)**
+
+Now we have learned the technical aspects of using the Python interpreter, we can
 move on to the basics of programming using it. The first thing we'll learn about is
 how Python stores and interprets information.
 
@@ -38,7 +40,7 @@ This is great but not very interesting.
 To do anything useful with data, we need to assign its value to a _variable_ otherwise
 we'd have to write the whole analysis as one long calculation.
 
-But what is a variable? And what is it's relation to how Python organises the information you
+But what is a variable? And what is it's relation to how Python organizes the information you
 give it? This is all covered by four terms:
 
 * Types – How to interpret data in a memory location ('object') and what operations can be performed by it

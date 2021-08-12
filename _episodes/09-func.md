@@ -20,6 +20,7 @@ keypoints:
 - "Put code whose parameters change frequently in a function, then call it with different parameter values to customize its behavior."
 ---
 
+**The code `pd_episode09_creating_functions.ipynb` for this episode can be downloaded from [here](https://osf.io/34jd5/download)**
 
 As we've already said when looking at loops, reusing code is a very important part of good code
 development and will save you a lot of pain in the long term! We've already seen how we can

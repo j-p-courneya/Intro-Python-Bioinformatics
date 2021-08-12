@@ -25,6 +25,8 @@ list[2:9]), in the same way as strings and arrays."
 - "As with lists, they are mutable - their values can be changed in place"
 ---
 
+**The code for this episode can be downloaded from [here](https://osf.io/b9vpz/download)**
+
 We have learnt how to store single bits of data in variables but what happens when we have several
 bits of data that are associated with each other and need to be stored together? For example, 
 a vector, array or list of names? For this we can use the built-in collection types of `list`
