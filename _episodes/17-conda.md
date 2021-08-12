@@ -12,4 +12,97 @@ keypoints:
 - "Packge managers make updating software easier than one of installations"
 ---
 
-So far we have seen the fundamentals of using Python as well as libraries for cleaning, analyzing and visualizing data using Python like Matplotlib and NumPy. When you hear about Python being used for Bioinformatics or Machine Learning however much of the time doing that work requires loading and using software developed with Python and other programming languages. When you are considering expanding your analytical repertoire to using these packages you are faced with a decision. Will I download this software from the developers website or will I use a package manager. There are tremendous benefits to using package managers. The most important benefit is ease of installation of the software as well as updating software that has been installed using the package manager. 
+So far we have seen the fundamentals of using Python as well as libraries for cleaning, analyzing and visualizing data using Python like Matplotlib and NumPy. When you hear about Python being used for Bioinformatics or Machine Learning however much of the time doing that work requires loading and using software developed with Python and other programming languages. When you are considering expanding your analytical repertoire to using these packages you are faced with a decision. Will I download this software from the developers website or will I use a package manager. There are tremendous benefits to using package managers. The most important benefit is ease of installation of the software as well as updating software that has been installed using a package manager. One important channel/package manager to familiarize yourself with is [Bioconda](https://bioconda.github.io/user/install.html) which is part of the [Conda](https://docs.conda.io/en/latest/) open-source package management system and environment management system. 
+
+## Getting Started
+
+**Bioconda supports only 64-bit Linux and Mac OS.** this means folks on Windows will need either a virtual machine running Linux or have the Windows Subsystem for Linux installed on their computer to use Bioconda.
+
+The first thing required to install Bioconda packages is to have Conda installed. If you have an Anaconda Python installation, you already have Conda. Otherwise, the best way to install it is with the Miniconda package. The Python 3 version is recommended.
+
+### Check your installation
+
+To check your installation of Conda run: 
+
+~~~
+$ conda --version
+~~~
+{: .language-shell}
+
+You should see an output such as this: 
+~~~
+conda 4.10.3
+~~~
+{: .output}
+
+### Installing Conda
+
+If you dont see that output you can install Conda on your platform with these commands according to Conda [documentation](https://bioconda.github.io/user/install.html)
+
+On MacOS run:
+~~~
+$ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+sh Miniconda3-latest-MacOSX-x86_64.sh
+~~~
+{: .language-shell}
+
+On Linux, run:
+~~~
+$ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh Miniconda3-latest-Linux-x86_64.sh
+~~~
+{: .language-shell}
+
+Follow the instructions in the installer. If you encounter problems, refer to the **[Miniconda](https://conda.io/en/latest/miniconda.html)** documentation. 
+
+## Setting up channels
+
+After installing conda you will need to add the bioconda channel as well as the other channels bioconda depends on. It is important to add them in this order so that the priority is set correctly (that is, conda-forge is highest priority).
+
+The [conda-forge](https://conda-forge.org/) channel contains many general-purpose packages not already found in the defaults channel.
+
+~~~
+$ conda config --add channels defaults
+$ conda config --add channels bioconda
+$ conda config --add channels conda-forge
+~~~
+{: .language-shell}
+
+* conda-forge: Most dependencies (numpy, scipy, zlib, CRAN packages, etc.)
+
+* bioconda: Most bioinf packages (salmon, STAR, samtools, DESeq2, etc.)
+
+* defaults: Packages built by Anaconda Inc.
+
+## Finding Packages¶
+
+* Search https://anaconda.org
+
+* Search Google for package name + bioconda
+
+* Use `conda search`
+
+~~~
+$ conda search pysam
+~~~
+{: .language-shell}
+
+The output will show this:
+
+~~~
+# Name                       Version           Build  Channel             
+[...]
+pysam                       0.16.0.1  py37h3ee3bc3_1  bioconda            
+pysam                       0.16.0.1  py37h3ee3bc3_2  bioconda            
+pysam                       0.16.0.1  py37h505b978_3  bioconda            
+pysam                       0.16.0.1  py38h4ebacbe_3  bioconda            
+pysam                       0.16.0.1  py38hb3e8b06_1  bioconda            
+pysam                       0.16.0.1  py38hb3e8b06_2  bioconda            
+pysam                       0.16.0.1  py39h56703ae_3  bioconda 
+~~~
+{: .output}
+
+* Packages have versions, build numbers, build hashes/strings
+  * Build hashes include dependency information
+
+* Bioconda packages are also listed at [](http://bioconda.github.io/conda-package_index.html)
